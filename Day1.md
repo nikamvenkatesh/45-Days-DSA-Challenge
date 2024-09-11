@@ -2,6 +2,7 @@
 Link:https://www.geeksforgeeks.org/problems/largest-element-in-array4009/0
 
 Name: Largest Element in the Array
+
 Description: Just to find the largest element in the unsorted array. We can solve it by using the simple Linear Search.
 
 Difficulty: Very Easy.
@@ -21,10 +22,13 @@ class Solution {
 ```
 #Problem 2
 Link:https://www.geeksforgeeks.org/problems/second-largest3735/1
+
 Name: Second Largest Element in the Array.
+
 Description: Kind of similar to the previous one, just a little different cause we need the second largest so we compare the first largest and the array current element with it.
 
 Difficulty: Easy
+
 
 ```java
 class Solution {
