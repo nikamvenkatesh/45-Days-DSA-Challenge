@@ -7,6 +7,8 @@ Description: Just to find the largest element in the unsorted array. We can solv
 
 Difficulty: Very Easy.
 
+Complexity : O(N)
+
 ```java
 class Solution {
     public static int largest(int[] arr) {
@@ -20,6 +22,8 @@ class Solution {
     }
 }
 ```
+
+
 #Problem 2
 Link:https://www.geeksforgeeks.org/problems/second-largest3735/1
 
@@ -35,6 +39,7 @@ Follwoing is the optimised solution for the same.
 
 Difficulty: Easy
 
+Complexity: O(N)
 
 ```java
 class Solution {
