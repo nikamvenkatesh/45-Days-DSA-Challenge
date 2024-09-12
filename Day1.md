@@ -27,6 +27,12 @@ Name: Second Largest Element in the Array.
 
 Description: Kind of similar to the previous one, just a little different cause we need the second largest so we compare the first largest and the array current element with it.
 
+here, we can solve this question by two steps
+1. Firstly i will find the largest element in the array. :: O(N) Complexity
+2. Now i will compare every single element of the array to be smaller than the largest but again being the largest than the current second largest element(Interger.MIN_VALUE).
+
+Follwoing is the optimised solution for the same.
+
 Difficulty: Easy
 
 
