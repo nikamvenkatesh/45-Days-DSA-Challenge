@@ -6,6 +6,7 @@ Name : Rotate Array
 Description : To rotate the array k times. from the right side.
 Approch of mine
     1. I thought of the following solution which did solved the Question but had the Issue of "Time Limit Exceeding".
+
     ```java
     k = k%nums.length;
         for (int i=0;i<k;i++){
@@ -17,6 +18,7 @@ Approch of mine
             nums[0] = temp;
         }
     ```
+
     Complexity: O(N*K)
 
 but, as always watched the solution.
