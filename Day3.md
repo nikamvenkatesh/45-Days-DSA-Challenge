@@ -5,9 +5,10 @@ Name : Rotate Array
 
 Description : To rotate the array k times. from the right side.
 Approch of mine
-    1. I thought of the following solution which did solved the Question but had the Issue of "Time Limit Exceeding".
 
-    Complexity: O(N*K)
+1. I thought of the following solution which did solved the Question but had the Issue of "Time Limit Exceeding".
+
+Complexity: O(N*K)
 
 ```java
     k = k%nums.length;
@@ -85,10 +86,12 @@ Link : https://leetcode.com/problems/move-zeroes/submissions/884361826/?source=s
 Name : Move Zeroes
 
 Description : To move all the Zeroes occuring in the array to the last of the array.
+its simply done by the help of the two pointer method.
+whenever we encounter the ith index to non zero value and jth index helding the value of 0 we just swap the values.
 
-Difficulty: 
+Difficulty: Easy Leetcode
 
-Complexity:
+Complexity: O(N)
 
 ```java []
 class Solution {
