@@ -1,48 +1,47 @@
-#Problem 17 --KKQuestions
+#Problem 23 --KKQuestions
 
-Link : https://leetcode.com/problems/search-insert-position/description/
+Link : https://www.naukri.com/code360/problems/ceiling-in-a-sorted-array_1825401?leftPanelTabValue=PROBLEM
 
-Name : Search Insert Position.
+Name :Ceil the Floor
 
-Description : To find the target value if not found, return the index value were it should be inserted.
+Description : To find the Floor and the ceil of the target value.
 
-Difficulty : Leetcode Easy.
+Difficulty : Code360 codingNinja Moderate.
 
 Complexity : O(Log N)
 
 ```java
-class Solution {
-    public int searchInsert(int[] nums, int target) {
-       int start=0;
-       int end=nums.length-1;
-       int mid =(start+(end-start)/2);
-        if(target <nums[start]){
-            return start;
-        }
-        if(target > nums[end]){
-            return end+1;
-        }
-       while(start<=end){
-           mid =(start+(end-start)/2);
-           if(nums[mid]==target){
-            return mid;
-           }
-           else if(target>nums[mid]){
-               start=mid+1;
-           }
-           else{
-               end=mid-1;
-           }
+import java.util.* ;
+import java.io.*; 
 
-        } 
-       
-        return start;
-
+public class Solution {
+    public static int[] getFloorAndCeil(int[] a, int n, int x) {
+      // Wriute your code here.
+      int ans [] = {-1, -1};
+      int s = 0;
+      int e = n-1;
+      while(s<=e){
+        int mid = s+(e-s)/2;
+        if(a[mid] == x){
+          ans[0] = a[mid];
+          ans[1] = a[mid];
+          return ans;
+        }
+        else if(a[mid]> x){
+          ans[1] = a[mid];
+          e = mid-1;
+        }else{
+          ans[0] = a[mid];
+          s = mid+1;
+        }
+      }
+      return ans;
     }
+    
 }
 ```
 
-#Problem 18 --KKQuestions
+#Problem 24 --KKQuestions
 
 Link : https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
 
