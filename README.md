@@ -1,20 +1,17 @@
-# 45 Days DSA Challenge
+# 45-Day DSA Challenge
 
-Welcome to the 45 Days DSA Challenge repository!
+A 45-day journey solving 2 LeetCode problems daily to build muscle memory on common algorithm patterns.
 
-## Overview
-This repository tracks the progress of solving 2 DSA questions daily for 45 days.
+## What it demonstrates
 
-## Challenge Details
-- Duration: 45 Days
-- Tasks: Solve 2 DSA questions daily
-- Platform: LeetCode, GFG (or your chosen platform)
+- Consistent practice on Data Structures & Algorithms
+- Multiple approaches per problem (brute-force → optimized) with complexity analysis
+- Code in [language] with clear comments explaining the intuition
 
-## Progress
-Each day's progress will be documented in separate markdown files.
+## Topics covered
 
-## How to Use
-- Check out the daily files to see the problems solved and their solutions.
-- Each file contains a brief description of the problem and the solution approach.
+[List: Arrays, Strings, Linked Lists, Trees, Graphs, DP, etc. — fill in based on what's actually in the repo]
 
-Happy Coding!
+## My LeetCode profile
+
+https://leetcode.com/u/nikam_venkatesh
